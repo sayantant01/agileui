@@ -1,0 +1,21 @@
+<div  style="background: linear-gradient(to bottom, #0077FF, #FFFFFF);">
+    <table style="background: linear-gradient(to bottom, #FFFFFF, aqua);">
+      <caption>Clients</caption>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>POC Full Name</th>
+          <th>POC Email Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of tableData">
+          <td>{{ data.id }}</td>
+          <td>{{ data.name }}</td>
+          <td>{{ data.poc_FullName}}</td>
+          <td>{{ data.poc_EmailAddress}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

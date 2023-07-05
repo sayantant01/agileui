@@ -1,0 +1,29 @@
+<div style="background: linear-gradient(to bottom, #0077FF, #FFFFFF);">
+    <table style="background: linear-gradient(to bottom, #FFFFFF, aqua);">
+      <caption>Projects</caption>
+      <thead>
+        <tr>
+          <th>Budget</th>
+          <th>Created On</th>
+          <th>Expected End Date</th>
+          <th>Last Updated On</th>
+          <th>Project Code</th>
+          <th>Start Date</th>
+          <th>Status</th>
+         <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of tableData">
+          <td>{{ data.budget }}</td>
+          <td>{{ data.createdOn }}</td>
+          <td>{{ data.expectedEndDate }}</td>
+          <td>{{ data.lastUpdatedOn }}</td>
+          <td>{{ data.projectCode }}</td>
+          <td>{{ data.startDate }}</td>
+          <td>{{ data.status }}</td>
+          <td>{{ data.title }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

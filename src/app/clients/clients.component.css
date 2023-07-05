@@ -1,0 +1,38 @@
+body.mat-typography  {
+    background: linear gradient(to bottomright , #1e07ee, #ffffff) ;
+}
+table caption {
+    caption-side: top;
+  }
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+  }
+  
+  caption {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 2;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
